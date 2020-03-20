@@ -1,0 +1,14 @@
+server:
+  name: enis-rest
+  
+servers:
+  name: enis-cache
+  cache:
+    host: 192.168.0.1
+  mq:
+    host: 192.168.10.11
+
+    
+enis:
+  base:
+    greeting: 안녕하세요
